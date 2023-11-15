@@ -8,7 +8,7 @@ import {
   faPaperPlane,
   faBookmark,
 } from "@fortawesome/free-regular-svg-icons";
-import "./src/App.css";
+import '../../src/App.css';
 import "./feeds.scss";
 
 function Feeds(props) {

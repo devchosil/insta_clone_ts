@@ -1,4 +1,4 @@
-const Data = [
+const Data:any = [
   {
     id: 1,
     userId: "my_2022",

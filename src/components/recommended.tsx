@@ -1,5 +1,5 @@
 import React from "react";
-import "./src/App.css";
+import '../../src/App.css';
 import "./recommended.scss";
 
 function RecommendedUser(props) {

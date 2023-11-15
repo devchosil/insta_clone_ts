@@ -1,5 +1,4 @@
-import React from "react";
-import "./src/App.css";
+import '../../src/App.css';
 import "./story.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDot } from "@fortawesome/free-regular-svg-icons";
