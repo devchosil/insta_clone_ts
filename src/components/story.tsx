@@ -1,4 +1,4 @@
-import '../../src/App.css';
+// import '../../src/App.css';
 import "./story.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faCircleDot } from "@fortawesome/free-regular-svg-icons";
@@ -22,7 +22,8 @@ function Story(props) {
             <div className="storyImg">
               <div className="storyImgBorder"></div>
               <div className="storyPic">
-                <img src={유저데이터[i].profile} />
+                <img src={"https://picsum.photos/200/200?random="+i}/>
+                {/* <img src={유저데이터[i].profile} /> */}
               </div>
             </div>
             <p>{유저데이터[i].userId}</p>

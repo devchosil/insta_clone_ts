@@ -1,7 +1,7 @@
 /* 메인 */
 .main {
-  max-width: 650px;
-  min-width: 500px;
+  max-width: 630px;
+  min-width: 580px;
   padding-right: 25px;
 }
 
@@ -104,6 +104,13 @@
   //   -webkit-line-clamp: 2;
   //   overflow: hidden;
   // }
+}
+
+.profilPic img{
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  position: relative;
 }
 
 /* 댓글 내용*/
